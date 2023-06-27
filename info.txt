@@ -1,0 +1,2 @@
+group-- when some element style depend on the parent then use group 
+------- div color ---- change ----parent
