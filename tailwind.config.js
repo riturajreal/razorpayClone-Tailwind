@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        mulish:["Mulish","sans-serif"],
+        mulish:['Mulish','sans-serif']
       },
 
 
@@ -20,14 +20,10 @@ module.exports = {
         deepBlueHead : "#162f56",
         gray2:"#525a76",
       },
-
-      backgroundImage: {
-        'bg-texture': "url(./images/",
     
     },
+
   },
 
   plugins: [],
-}
-
 }
