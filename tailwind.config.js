@@ -9,6 +9,7 @@ module.exports = {
 
 
       colors:{
+        bgBlue: "#181c2e",
         deepBlue:"#02042a",
         lightBlue:"#2b84ea",
         lightBlue300 : "#4b94ed",
