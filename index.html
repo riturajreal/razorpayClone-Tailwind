@@ -25,6 +25,21 @@
     .feature-section-2{
         background-size: 100% 100%;
     }
+
+    .companiesList{
+        animation: 4s infinite linear moveCompany;
+    }
+
+    @keyframes moveCompany {
+        0%{
+            top:0;
+        }
+
+        100%{
+            top:-50%;
+        }
+        
+    }
    
 </style>
 
@@ -102,7 +117,7 @@
                 <img src="./images/india-flag.svg" width="28px" height="" alt="" />
 
                 <button
-                    class="py-3 px-5 text-small font-bold font-mulish text-white border border-lightBlue rounded-sm">
+                    class="py-3 px-5 text-small font-bold font-mulish text-white border border-white rounded-sm">
                     Log in
                 </button>
                 <button
@@ -904,6 +919,36 @@
         </div>
     </section>
 
+
+    <!-- JOIN RAZORPAY SECTION -->
+    <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
+        <div class="w-10/12 max-w-[1080px] relative flex mx-auto">
+            <!-- left part -->
+            <div class="flex flex-col justify-center max-w-[calc(100%-500px)]">
+                <h2 class="text-deepBlue font-bold text-2xl">Join the 50,00,000 businesses using Razorpay</h2>
+                <div class="w-6 h-1 bg-greenLight mb-5 my-2"></div>
+                <p>We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+                <p class="mt-6">Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+
+            <!-- right part Scrolling Image -->
+            <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+                <div style="background: linear-gradient(180deg, #f4f8ff, #fff0);"
+                        class="absolute z-50 w-full h-[150px] top-0">
+
+                </div>
+                <img src="./images/comanies.png" alt="" class="absolute companiesList">
+
+                <div style="background: linear-gradient(0deg, #f4f8ff, #fff0);"
+                class="absolute w-full z-50 h-[150px] bottom-0 ">
+
+        </div>
+            </div>
+
+        </div>
+    </section>
+
+    
 
 
     <div style="height: 100vh;"></div>
