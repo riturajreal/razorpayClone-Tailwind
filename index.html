@@ -30,6 +30,11 @@
         animation: 4s infinite linear moveCompany;
     }
 
+    .ctaSection{
+        background-size: 100% 100%;
+
+    }
+
     @keyframes moveCompany {
         0%{
             top:0;
@@ -45,6 +50,10 @@
 
 <body>
     <!-- to run - use npm run start and for terminate use ctrl c -->
+   
+    <!-- main parent -->
+    <div class="overflow-x-hidden">
+
 
     <!-- 1.BANNER -->
     <div
@@ -947,6 +956,115 @@
 
         </div>
     </section>
+
+    <!-- Testimonial Section -->
+
+    <section class="relative">
+        <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
+            <img src="./images/feature-section1-dottedrows.png" alt="" class="absolute w=[200px] top-[8rem] left-[2rem] -z-[10]">
+            <h2 class="font-bold text-2xl text-center">An Experience
+               <br> People Love to Talk About</h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto mt-3"></div>
+
+            <!-- left button -->
+            <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute left-0 top-1/2 flex justify-center items-center ">
+                <div class="w-[65%] h-[65%] mix-blend-multiply bg-[#f4f8ff] rounded-full flex justify-center items-center">
+                    <i class="fa-solid fa-angle-right text-gray-400  rotate-180"></i>
+                </div>
+            </button>
+
+            <!-- right button -->
+            <button class="w-[100px] h-[100px] bg-[#f4f8ff] rounded-full absolute right-0 top-1/2 flex justify-center items-center ">
+                <div class="w-[65%] h-[65%] mix-blend-multiply bg-[#f4f8ff] rounded-full flex justify-center items-center">
+                    <i class="fa-solid fa-angle-right text-gray-400"></i>
+                </div>
+            </button>
+
+            <!-- main content -->
+
+            <div class="flex flex-row  max-w-[960px] justify-around items-center mx-auto my-20">
+                <!-- left image -->
+                <img src="./images/testimonial.jpg" alt="" height="320px" width="320px" class="rounded-xl" loading="lazy">
+
+                <!-- right part -->
+                <div class="max-w-[400px]">
+                    <img src="./images/quotes.svg" width="35px" height="40px" class="mb-2" alt="">
+                    <p class="text-3xl font-extralight">Acquire Customers From New Customer Segments</p>
+                    <a href="#" class="text-grayText italic underline">Learn More</a>
+                    <h3 class="font-bold text-2xl">Subham Kumar</h3>
+                    <p class="font-medium">Product Manager</p>
+                    <img src="./images/fake-company-logo.png" width="80px" height="80px" alt="">
+                </div>
+
+            </div>
+
+            <!-- slide div -->
+            <div class="flex max-w-[150px] gap-2 mx-auto hover:cursor-pointer">
+                <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-blue-500 rounded-full"></div>
+                <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+                <div class="w-3 h-3 bg-gray-400 rounded-full"></div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="w-full h-full bg-no-repeat bg-cover relative bg-[url('/images/CTABg.svg')] ctaSection p-[150px]">
+        <!-- main content box -->
+        <div class="w-11/12 max-w-[1080px] flex justify-between items-center relative mx-auto py-100 ">
+            
+            <!-- left part -->
+            <div class="flex flex-col items-start gap-4 max-w-[700px] flex-wr">
+
+            <h2 class="font-bold text-white text-2xl">Supercharge your business with Razorpay</h2>
+            <div class="w-6 h-1 bg-greenLight mt-2 mb-2"></div>
+            <p class="text-white">Sign up now to experience the future of payments and offer your customers the best checkout experience.</p>
+
+            <ul class="flex space-x-4">
+                <li class="flex text-white items-center space-x-2">
+                    <i class=" fa-solid fa-check text-greenLight"></i>
+                    <span>Quick onboarding</span>
+                </li>
+                <li class="flex text-white items-center space-x-2">
+                    <i class=" fa-solid fa-check text-greenLight"></i>
+                    <span>Access to entire product suite</span>
+                </li>
+                <li class="flex text-white items-center space-x-2">
+                    <i class=" fa-solid fa-check text-greenLight"></i>
+                    <span>API access</span>
+                </li>
+                <li class="flex text-white items-center space-x-2">
+                    <i class=" fa-solid fa-check text-greenLight"></i>
+                    <span>24x7 support</span>
+
+                </li>
+            </ul>
+
+            <button
+                    class="py-3 px-5 text-small font-bold font-mulish text-lightBlue300 bg-white border rounded-sm transition-all duration-200 hover:text-lightBlue500">
+                    Sign up <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+            
+
+            <div>
+                <!-- right image -->
+            <img src="./images/ctaImg.svg" width="282px" height="282px" alt="">
+            </div>
+            
+
+        </div>
+    </section>
+
+
+    <!-- main parent end here -->
+    </div>
 
     
 
