@@ -80,45 +80,45 @@
 
             <!-- Links -->
 
-            <ul class="flex gap-6">
+            <ul class="  flex flex-hidden space-x-6">
                 <li
-                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Payments</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
                 </li>
 
                 <li
-                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Banking+</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
                 </li>
 
                 <li
-                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Line of Credit</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
                 </li>
 
                 <li
-                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Payroll</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
                 </li>
 
                 <li
-                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Resources</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
                 </li>
 
                 <li
-                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Support</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
                 </li>
 
                 <li
-                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+                    class="text-white font-mulish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
                     <a href="#">Pricing</a>
                     <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block"></div>
                 </li>
@@ -126,16 +126,16 @@
 
             <!-- ind-flag img -->
 
-            <div class="flex gap-6">
-                <img src="./images/india-flag.svg" width="28px" height="" alt="" />
+            <div class="flex space-x-6">
+                <img src="./images/india-flag.svg" width="28px" height="" alt="" class="hidden lg:block" />
 
                 <button
                     class="py-3 px-5 text-small font-bold font-mulish text-white border border-white rounded-sm">
                     Log in
                 </button>
                 <button
-                    class="py-3 px-5 text-small font-bold font-mulish text-lightBlue300 bg-white border rounded-sm transition-all duration-200 hover:text-lightBlue500">
-                    Sign up <i class="fa-solid fa-arrow-right"></i>
+                    class="py-3 px-5 text-small font-bold font-mulish text-lightBlue300 bg-white border rounded-sm transition-all duration-200 hover:text-lightBlue500 hidden lg:block ">
+                    Sign up  <i class="fa-solid fa-arrow-right"></i>
                 </button>
             </div>
         </div>
@@ -144,14 +144,14 @@
     <!-- 2.HERO SECTION -->
 
     <section class="relative bg-deepBlue">
-        <div class="main-hero w-[1080px] mx-auto flex justify-between items-center">
+        <div class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row  justify-between items-center mx-auto">
             <!-- leftPart -->
             <div class="space-y-8">
                 <h1 class="text-white font-bold text-[40px] leading-[1.2]">
                     Power your finance, grow your business
                 </h1>
                 <div class="w-6 h-1 bg-greenLight"></div>
-                <p class="text-white opacity-70">
+                <p class="text-white opacity-70 text-[18px] leading-7">
                     Accept payments from customers. Automate payouts to vendors &
                     employees. Never run out of working capital.
                 </p>
@@ -163,7 +163,7 @@
 
             <!-- rightPart -->
 
-            <img class="w-full max-w-[680px]" src="./images/hero-illustration.jpg" alt="" />
+            <img src="./images/hero-illustration.jpg" alt="" class="w-full max-w-[680px]" />
         </div>
 
         <!-- Shape Part -->
@@ -182,8 +182,8 @@
 
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 ">
             <!-- heading  -->
-            <h2 class="text-center text-2xl leading-[1.2] font-extrabold">Accept Payments with Razorpay Payment Suite
-            </h2>
+            <h2 class="text-center text-2xl leading-[1.2] font-extrabold hidden md:block">Accept Payments with Razorpay Payment Suite</h2>
+            <h2 class="text-center text-5xl leading-[1.2] font-extrabold md:hidden">Explore Razorpay Payment Suite</h2>
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-3"></div>
 
             <!-- Main content box  -->
@@ -225,28 +225,28 @@
                     </ul>
 
                     <!-- button and hyperlink -->
-                    <div class="flex flex-row items-center space-x-4">
+                    <div class="flex flex-col-reverse items-center space-x-4   md:flex-row">
                         <button
-                            class="bg-lightBlue py-3 px-4 text-white rounded-md transition-all duration-200 hover:bg-lightBlue500">
+                            class="bg-lightBlue py-3 px-4 text-white rounded-md transition-all duration-200 hover:bg-lightBlue500 w-full md:w-fit">
                             Sign up Now <i class="fa-solid fa-arrow-right"></i></button>
                         <!-- hyperlink -->
 
-                        <div class="cursor-pointer group">
+                        <div class="flex self-start md:self-center cursor-pointer group">
                             <a href="#"
-                                class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200">Know
-                                More</a>
-                            <i class="fa-solid fa-angle-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue"></i>
+                                class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200 ">Know
+                                More <i class="fa-solid fa-angle-right w-5 h-5 text-lightBlue500 group-hover:text-grayBlue"></i></a>
+                            
                         </div>
 
                     </div>
 
                 </div>
-                <img class=" absolute max-w-[600px] right-0 -bottom-0" src="./images/payment-suite.png" alt="">
+                <img class=" absolute max-w-[600px] right-0 -bottom-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block" src="./images/payment-suite.png" alt="">
             </div>
 
             <!-- Feature Ends -->
 
-            <!-- CARDS -->
+            <!-- CARDS of Feature 1 -->
 
             <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
                 <!-- BOX1 -->
@@ -582,9 +582,9 @@
                         </ul>
 
                         <!-- button and hyperlink -->
-                        <div class="flex flex-row items-center space-x-4">
+                        <div class="flex flex-col-reverse md:flex-row items-center space-x-4">
                             <button
-                                class="bg-lightBlue flex items-center py-[14px] px-[18px] pr-[90px] relative text-white rounded-md transition-all duration-200 hover:bg-lightBlue500">
+                                class="bg-lightBlue flex items-center  md:justify-between py-[14px] px-[18px] pr-[90px] relative text-white rounded-md transition-all duration-200 hover:bg-lightBlue500 w-full md:w-fit ">
                                 Sign up Now
                                 <!-- tilted box -->
                                 <div
@@ -605,7 +605,8 @@
                         </div>
 
                     </div>
-                    <img class=" max-w-[800px] absolute right-0 bottom-0" src="./images/buisness-banking.png" alt="">
+                    <!-- bg img -->
+                    <img class=" max-w-[800px] absolute right-0 bottom-0  hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block" src="./images/buisness-banking.png" alt="">
                 </div>
 
 
@@ -1102,38 +1103,36 @@
             </div>
 
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">LENDING</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Razorpay Capital</a></li>
+                <li><a href="#">Instant Settlements</a></li>
+                <li><a href="#">Line of Credit</a></li>
+                <li><a href="#">Working Captial Loans</a></li>
+                <li><a href="#">Marketplace Instant Settlement</a></li>
             </ul>
             </div>
 
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">BECOME A PARTNER</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Refer and Earn</a></li>
+                <li><a href="#">Onboarding APIs</a></li>
             </ul>
             </div>
 
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">MORE</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Route</a></li>
+                <li><a href="#">Invoices</a></li>
+                <li><a href="#">Freelancer Payments</a></li>
+                <li><a href="#">International</a></li>
+                <li><a href="#">Flash Checkout</a></li>
+                <li><a href="#">UPI</a></li>
+                <li><a href="#">ePOS</a></li>
+                <li><a href="#">Checkout Demo</a></li>
+                <li><a href="#">RazorpayX Payroll</a></li>
             </ul>
             </div>
 
@@ -1145,50 +1144,56 @@
         <!-- col 3 -->
         <div class="flex flex-col gap-y-5 max-w-[260px]">
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">ACCEPT PAYMENTS</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Payment Gateway</a></li>
+                <li><a href="#">Payment Pages</a></li>
+                <li><a href="#">Payments Links</a></li>
+                <li><a href="#">Razorpay POS <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">QR Codes</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Smart Collect</a></li>
+                <li><a href="#">Optimizer</a></li>
             </ul>
             </div>
 
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">DEVELOPERS</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Integration</a></li>
+                <li><a href="#">API Reference</a></li>
             </ul>
             </div>
 
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">RESOURCES</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Customer Services</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Chargebook Guide</a></li>
+                <li><a href="#">Settlement Guide</a></li>
             </ul>
             </div>
 
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">SOLUTIONS</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">E-commerce</a></li>
+                <li><a href="#">SaaS</a></li>
+                <li><a href="#">BFSI</a></li>
+            </ul>
+            </div>
+
+            <div>
+                <h3 class="font-semibold ">FREE TOOLS</h3>
+                <ul class="text-lightBlue">
+                <li><a href="#">GST Calculator</a></li>
+                <li><a href="#">Online TDS Calculator</a></li>
+                <li><a href="#">GST Number Search</li>
+                <li><a href="#">GST Search by PAN <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
             </ul>
             </div>
 
@@ -1200,26 +1205,25 @@
         <!-- col 4 -->
         <div class="flex flex-col gap-y-5 max-w-[260px]">
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">COMPANY</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Carrers</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Grievance Redressal</a></li>
+                <li><a href="#">Responsible Disclosure</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">White Papers</a></li>
+                <li><a href="#">Corporate Information</a></li>
             </ul>
             </div>
 
             <div>
-                <h3 class="font-semibold ">BANKING PLUS</h3>
+                <h3 class="font-semibold ">HELP & SUPPORT</h3>
                 <ul class="text-lightBlue">
-                <li><a href="#">RazorpayX</a></li>
-                <li><a href="#">Current Accounts</a></li>
-                <li><a href="#">Payouts</a></li>
-                <li><a href="#">Payouts Links</a></li>
-                <li><a href="#">Corporate Credit Card</a></li>
-                <li><a href="#">View Live Demo <span class="bg-green-500 text-[0.82rem] uppercase text-white p-[2px] rounded-sm">NEW</span></a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Knowledge Base</a></li>
             </ul>
             </div>
 
